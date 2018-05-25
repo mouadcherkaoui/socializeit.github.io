@@ -1,43 +1,83 @@
-{ "definitions" : [
-    { "definitionId": "idea",
-      "iscollection": false,
-      "structure": [
-        { "field" : "title", "type": "string", "metadata": "" },
-        { "field" : "description", "type": "string", "metadata": "" }        
-      ] 
-    },
-    { "definitionId": "links",
-      "iscollection" : true,
-      "structure": [
-        { "field" : "link", "type": "string", "metadata": "" }
-      ] 
-    },
-    { "definitionId": "post",
-      "iscollection": true,
-      "structure": [
-        { "field" : "username", "type": "string", "metadata": "" },
-        { "field" : "date", "type": "datetime", "metadata": "" },    
-        { "field" : "content", "type": "string", "metadata": "" }            
-      ] 
-    },
-    { "definitionId": "subscription",
-      "iscollection": false,
-      "structure": [
-        { "field" : "any", "type": "string", "metadata": "" }
-      ]     
-    }
-  ],
-  "values": [
-    { "idea": { 
-        "title": "Open Minded Problems Resolution!!", 
-        "description": "one of the most interesting aspect of our perceptional abilities is the resolution of problems, and it is logic since this is where all our perception and congnitif abilities are synchronized in certain logic to resolve a problem."
+{
+    "definitions": [
+        {
+            "definitionId": "idea",
+            "iscollection": false,
+            "structure": [
+                {
+                    "field": "title",
+                    "type": "string",
+                    "metadata": ""
+                },
+                {
+                    "field": "description",
+                    "type": "string",
+                    "metadata": ""
+                }
+            ]
         },
-      "links": [
-        { "link": "https://ideas.socializeit.io" }
-      ],
-      "post": [
-        { "username": "mouadcherkaoui", "date": "05/25/2018", "content": "a little test that demostrate the flexibability to use metadata to form an socialized idea structure of metadata" }
-      ]   
-    }
-  ]
+        {
+            "definitionId": "links",
+            "iscollection": true,
+            "structure": [
+                {
+                    "field": "link",
+                    "type": "string",
+                    "metadata": ""
+                }
+            ]
+        },
+        {
+            "definitionId": "post",
+            "iscollection": true,
+            "structure": [
+                {
+                    "field": "username",
+                    "type": "string",
+                    "metadata": ""
+                },
+                {
+                    "field": "date",
+                    "type": "datetime",
+                    "metadata": ""
+                },
+                {
+                    "field": "content",
+                    "type": "string",
+                    "metadata": ""
+                }
+            ]
+        },
+        {
+            "definitionId": "subscription",
+            "iscollection": false,
+            "structure": [
+                {
+                    "field": "any",
+                    "type": "string",
+                    "metadata": ""
+                }
+            ]
+        }
+    ],
+    "values": [
+        {
+            "idea": {
+                "title": "Open Minded Problems Resolution!!",
+                "description": "one of the most interesting aspect of our perceptional abilities is the resolution of problems, and it is logic since this is where all our perception and congnitif abilities are synchronized in certain logic to resolve a problem."
+            },
+            "links": [
+                {
+                    "link": "https://ideas.socializeit.io"
+                }
+            ],
+            "post": [
+                {
+                    "username": "mouadcherkaoui",
+                    "date": "05/25/2018",
+                    "content": "a little test that demostrate the flexibability to use metadata to form an socialized idea structure of metadata"
+                }
+            ]
+        }
+    ]
 }
