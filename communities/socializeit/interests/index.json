@@ -9,7 +9,7 @@
     { "definitionId": "links",
       "iscollection" : true,
       "structure": [
-        { "field" : "link", "type": "string", "metadata": "" },
+        { "field" : "link", "type": "string", "metadata": "" }
       ] 
     },
     { "definitionId": "post",
@@ -23,7 +23,7 @@
     { "definitionId": "subscription",
       "iscollection": false,
       "structure": [
-        { "field" : "any", "type": "string", "metadata": "" },
+        { "field" : "any", "type": "string", "metadata": "" }
       ]     
     }
   ],
